@@ -1,0 +1,62 @@
+#root {
+    background-color: #f8edd1;
+}
+.App {
+    padding: 5rem;
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.Movie {
+    background-color: #fff;
+    width: 45%;
+    display: block;
+    float: left;
+    padding:15px;
+    box-sizing: border-box;
+    height: 250px;
+    box-shadow: 15px 10px 20px 4px rgba(000, 000, 000, 0.2);
+    margin-bottom: 50px;
+}
+.Movie:nth-child(n-1) {
+    margin-right: 5%;
+}
+.Movie_Columns {
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.Movie_poster {
+    margin-right: 10%;
+}
+.Movie_poster img {
+    height: 120%;
+    display: block;
+    position: relative;
+    top:-50px;
+    left: 10px;
+    box-shadow: 15px 10px 20px 4px rgba(000, 000, 000, 0.2);
+}
+.Movie_txt {
+    width: 56%;
+}
+.Movie_txt h1 {
+    font-size: 1.4rem; 
+    width: 100%; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    overflow: hidden;
+}
+.Movie_txt span {
+    color: rgba(000, 000, 000, 0.5);
+}
+.Movie_txt p {
+    height: 3.6em;
+    color: rgba(000, 000, 000, 0.5)
+}
+.App--loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
